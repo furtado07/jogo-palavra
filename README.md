@@ -1,4 +1,19 @@
-# jogo-palavralet palavra;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+let palavra;
 
 function setup() {
   createCanvas(900, 900);
@@ -48,3 +63,10 @@ function modoNoturno(horario) {
 modoNoturno(15);
 modoNoturno(20);
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
